@@ -100,7 +100,7 @@ html{
 }
 
 .content-wrap{
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
 }
 .content-left{
@@ -108,23 +108,29 @@ html{
 }
 
 /* 教育背景 */
+.education .content-wrap{
+    display: flex;
+    justify-content: space-between;
+}
 .education .content-wrap .content-left h3{
     margin-bottom: 10px;
 }
 .education .content-wrap .content-left span{
     margin-right: 10px;
 }
-/* 工作经历 */
+/* 项目经历 */
 .work .content-wrap .content-left h3{
     margin-bottom: 10px;
 }
-.work .content-wrap .content-left span{
-    display: block;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
 .work .content-wrap .content-left li{
-    margin-left: 20px;
+    margin: 20px;
+    font-size: 16px;
+}
+
+a{
+    color: #0ea5e9;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* 专业技能 */
@@ -135,7 +141,8 @@ html{
     font-size: 14px;
 }
 /* 自我评价 */
-.evaluation p{
-    text-indent: 2rem;
+.evaluation li{
+    /* text-indent: 2rem; */
     font-size: 14px;
+    padding: 5px 0;
 }
